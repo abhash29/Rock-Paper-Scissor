@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-image: url('path_to_your_background_image.jpg');
+    background-size: cover;
+    /* This ensures that the background image covers the entire background */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(120, 229, 229);
+}
+
+/* Header */
+.header{
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* hero-images */
+.hero-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.imge{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.hero-images img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.hero-images .imge:hover{
+    background-color: black;
+}
+
+/* Hero-score section */
+.hero-score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 3rem;
+}
+.digit-score{
+    font-size: 64px;
+}
+.player-name{
+    font-size: 25px;
+}
+
+/* Hero-result */
+.hero-result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.hero-result p{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
